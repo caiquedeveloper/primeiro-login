@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+body{
+    background-image: url(assets/matue.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 10px;
+
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 35px 60px;
+    background-color: rgba(44, 42, 42, 0.151);
+    border-radius: 10px;
+    gap: 10px;
+
+
+}
+
+form h1{
+
+    color: white;
+}
+
+form div{
+
+    display: flex;
+    gap: 5px;
+    color: white;
+}
+
+a {
+
+    color: white;
+}
